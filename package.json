@@ -4,17 +4,26 @@
   "description": "Repositório para criamos um servidor node através do framework express",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xJoninha/express-learning.git"
   },
-  "keywords": [""],
+  "keywords": [
+    ""
+  ],
   "author": "Jonas Francisco",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xJoninha/express-learning/issues"
   },
-  "homepage": "https://github.com/xJoninha/express-learning#readme"
+  "homepage": "https://github.com/xJoninha/express-learning#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
